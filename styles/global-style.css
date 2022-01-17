@@ -1,0 +1,47 @@
+/* Global style sheet for all pages */
+
+* {
+	font: Lucida Grande;
+}
+
+nav {
+	text-align: center;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#main_nav {
+	right: 0px;
+	background: black;
+	display: block;
+	width: 100%;
+}
+
+#main_nav li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	font-weight: bold;
+}
+
+#main_nav li:hover {
+	color: grey;
+}
+
+#main_nav a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+
