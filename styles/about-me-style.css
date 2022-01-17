@@ -1,0 +1,46 @@
+/* Style sheet for about-me.html page */
+
+@import url("960_12_col.css");
+@import url("global-style.css");
+
+p {
+	text-align: center;
+}
+
+a {
+	display: inline-block;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: blue;
+}
+
+#bmore {
+	color: orange;
+}
+
+#portrait {
+	text-align: center;
+	display: block;
+}
+
+#portrait > img {
+	margin: 0px auto;
+}
+
+#bio {
+	text-align: center;
+}
+
+#bio > p {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
