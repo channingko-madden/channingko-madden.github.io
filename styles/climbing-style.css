@@ -1,0 +1,22 @@
+/* Style sheet for climbing.html page */
+
+@import url("960_12_col.css");
+@import url("global-style.css");
+
+/* Right sidebar, not intended to be used as navigation */
+.right_sidebar {
+	height: 100%; /* Full height */
+	width: 250px; /* Should be enough room for any route name */
+	position: absolute; /* Moves as user scrolls */
+	right: 0; /* sidebar on right */
+	z-index: 1; /* stay on top */
+	top: 0; /* stay at the top */
+	overflow-x: hidden; /* disable horizontal scroll */
+	padding-top: 65px; /* Put sidebar title at height of feature vid */
+}
+
+/* Ttile of the sidebar */
+.right_sidebar > h3 {
+	text-align: center;
+}
+
