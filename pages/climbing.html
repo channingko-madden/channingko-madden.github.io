@@ -1,15 +1,32 @@
 <!DOCTYPE html>
-<!-- Rock climbing page -->
+<!--
+Title: climbing.html
+
+Date: 2022-02-26
+
+Author: Channing Ko-Madden
+
+@brief Rock climbing page
+-->
 <html>
 	<head>
 		<meta name="description" content="A page about my experiences rock climbing" />
 		<meta http-equiv="author" content="Channing Ko-Madden" />
 		<title>Rock Climbing</title>
 		<link href="../styles/climbing-style.css" type="text/css" rel="stylesheet" />
+		<script src="../js/climbing.js" async></script>
+		<script src="../components/main-navigation.js"></script>
 	</head>
 	<body>
-		<script src="../js/climbing.js"></script>
 		<div class="container_12 clearfix">
+				<div class="grid_12 title">
+				<h1>Climbing</h1>
+			</div> <!-- end title -->
+			<main-navigation-component rootpath=".."></main-navigation-component>
+			<!-- Embedded YouTube video to feature on the page, the first thing the viewer sees -->
+			<article class="grid_12 feature_image">
+				<div id="feature_player"></div>
+			</article>
 			<div class="right_sidebar">
 				<h3>Send Videos!</h3>
 				<ul>
@@ -24,14 +41,6 @@
 					</li>
 				</ul>
 			</div>
-			<div id="title" class="grid_12">
-				<h1>Rock Climbing</h1>
-			</div> <!-- end title -->
-			<!-- Embedded YouTube video to feature on the page, the first thing the viewer sees -->
-			<article class="grid_12 feature_image">
-				<div id="feature_player"></div>
-			</article>
-
 		</div>
 	</body>
 </html>

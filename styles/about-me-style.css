@@ -1,4 +1,12 @@
-/* Style sheet for about-me.html page */
+/*
+Title: about-me-style.css
+
+Date: 2022-02-26
+
+Author: Channing Ko-Madden
+
+Style sheet for about-me.html page
+*/
 
 @import url("960_12_col.css");
 @import url("global-style.css");
@@ -7,15 +15,15 @@ p {
 	text-align: center;
 }
 
-a {
+a.me_link {
 	display: inline-block;
 }
 
-a:link {
+a.me_link:link {
 	color: blue;
 }
 
-a:visited {
+a.me_link:visited {
 	color: blue;
 }
 
@@ -32,4 +40,3 @@ a:visited {
 	margin-left: auto;
 	margin-right: auto;
 }
-

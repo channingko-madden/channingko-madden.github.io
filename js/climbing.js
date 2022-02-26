@@ -1,4 +1,7 @@
 /**
+ * Title: climbing.js
+ * Date: 2022-02-26
+ *
  * Script for climbing.html page
  */
 
@@ -30,4 +33,3 @@ function onYouTubeIframeAPIReady() {
 			}
 		});
 }
-

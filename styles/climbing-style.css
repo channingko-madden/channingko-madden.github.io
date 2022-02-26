@@ -1,4 +1,13 @@
-/* Style sheet for climbing.html page */
+/*
+
+Title: climbing-style.css
+
+Date: 2022-02-26
+
+Author: Channing Ko-Madden
+
+Brief: Style sheet for climbing.html page
+*/
 
 @import url("960_12_col.css");
 @import url("global-style.css");
@@ -19,4 +28,3 @@
 .right_sidebar > h3 {
 	text-align: center;
 }
-
