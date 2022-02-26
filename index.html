@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<!-- Homepage -->
+<!--
+Title: index.html
+
+Date: 2022-02-26
+
+Author: Channing Ko-Madden
+
+@brief Homepage
+-->
 <html>
 	<head>
 		<meta name="description" content="Saunterer, my personal web page and workplace for learning web development." />
 		<meta http-equiv="author" content="Channing Ko-Madden" />
 		<title>Saunterer</title>
 		<link href="./styles/index-style.css" type="text/css" rel="stylesheet" />
+		<script src="./components/main-navigation.js"></script>
 	</head>
 	<body>
+
 		<!-- Create 12 column container for whole page which indicates using the 12 column grid -->
 		<div class="container_12 clearfix">
-			<div id="title" class="grid_12">
+			<div id="test" class="grid_12 title">
 				<h1>Saunterer</h1>
 			</div> <!-- end title -->
-			<nav class="grid_12">
-				<a href="./pages/about-me.html">About me</a>
-			</nav>
-			<!-- Start First Row of articles -->
+			<main-navigation-component rootpath="."></main-navigation-component>
 			<figure class="grid_12">
-				<img src="./images/beijing_yongdingmen_620_410.jpg" alt="Photo of YongDingMen, Beijing" title="YongDingMen"/>
+				<img src="./images/snow-sled-trail-620-410.jpg" alt="Photo of YongDingMen, Beijing" title="YongDingMen"/>
 				<br />
 			</figure>
-			
 		</div>
 	</body>
 </html>

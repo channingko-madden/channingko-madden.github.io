@@ -1,13 +1,38 @@
-/* Global style sheet for all pages */
+/*
 
+Title: global-style.css
+
+Date: 2022-01-30
+
+Author: Channing Ko-Madden
+
+Brief: Global style sheet for all pages
+
+Global style:
+	- Use 960-12 column framework.
+	Each body should contain a <div class="container_12 clearfix"> element.
+
+	- The current style of the page is a featured item prominently
+	displayed, small articles displayed in smaller windows below, and links
+	to older pages on the sides or bottom of the page.
+
+	- Use a shared navigation bar for all pages. The main navigation bar is a custom HTML element defined by
+	main-navigation.js. To create the navigation bar, create a <main-navigation-component> element.
+	The navigation will align in the vertical center of the page and be styled by this css file.
+
+*/
+
+/* Global font */
 * {
 	font: Lucida Grande;
 }
 
-nav {
-	text-align: center;
+/* global background of entire page */
+body {
+	background-color: #e6e6e6; /* light-gray */
 }
 
+/* Global link behavior */
 a:link {
 	color: black;
 	text-decoration: none;
@@ -21,27 +46,71 @@ a:hover {
 	text-decoration: underline;
 }
 
-#main_nav {
-	right: 0px;
-	background: black;
-	display: block;
+
+/*
+Class for the main navigation of the page ( <nav> element with <ul> in it)
+*/
+.main_nav {
+	height: 90%;
 	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-#main_nav li {
+.main_nav ul {
+	padding: 0;
+	display: inline;
+}
+
+.main_nav li {
 	display: inline-block;
-	list-style: none;
-	padding: 10px;
 	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
-#main_nav li:hover {
-	color: grey;
+/*
+Class for the title of the page. Aligns the <div> element containing h# element
+in the vertical center of the page
+*/
+.title {
+	height: 90%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-#main_nav a {
-	text-decoration: none;
-	color: white;
-	padding: 10px;
+.title h1 {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
 }
 
+/*
+Feature image for a web page. Aligns figure element in the vertical center
+of the page.
+*/
+.feature_image {
+	text-align: center;
+	display: block;
+}
+
+.feature_image > img {
+	margin: 0px auto;
+}
+
+/*
+Create empty <div> with this class if need help aligning elements with
+he vertical center of page. It will draw a blue line down the debug_center
+f the page.
+*/
+.debug_center{
+	position: absolute;
+  background-color: blue;
+  width: 6px;
+  top: 91px;
+  bottom: 0px;
+  left: 50%;
+}
