@@ -3,10 +3,6 @@
 @import url("960_12_col.css");
 @import url("global-style.css");
 
-#title {
-	text-align: center;
-}
-
 figure {
 	display: block;
 	text-align: center;
