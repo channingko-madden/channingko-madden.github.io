@@ -2,7 +2,7 @@
 
 Title: climbing-style.css
 
-Date: 2022-02-26
+Date: 2023-01-05
 
 Author: Channing Ko-Madden
 
@@ -12,19 +12,17 @@ Brief: Style sheet for climbing.html page
 @import url("960_12_col.css");
 @import url("global-style.css");
 
-/* Right sidebar, not intended to be used as navigation */
-.right_sidebar {
-	height: 100%; /* Full height */
-	width: 250px; /* Should be enough room for any route name */
-	position: absolute; /* Moves as user scrolls */
-	right: 0; /* sidebar on right */
-	z-index: 1; /* stay on top */
-	top: 0; /* stay at the top */
-	overflow-x: hidden; /* disable horizontal scroll */
-	padding-top: 65px; /* Put sidebar title at height of feature vid */
+/* Div containing links to climbing videos */
+#send_links {
+    text-align: center;
 }
 
-/* Ttile of the sidebar */
-.right_sidebar > h3 {
-	text-align: center;
+/* Customize list 
+ * Set margin and padding to center correctly given that
+ * the bullet points have been removed */
+#send_links > ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
