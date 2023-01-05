@@ -1,6 +1,6 @@
 /**
  * Title: climbing.js
- * Date: 2022-02-26
+ * Date: 2023-01-04
  *
  * Script for climbing.html page
  */
@@ -24,7 +24,7 @@ function onYouTubeIframeAPIReady() {
     player = new YT.Player('feature_player', {
 			height: '410',
 			width: '620',
-			videoId: 'WAaiZHC_xJE',
+			videoId: 'yY9VLJHXzqQ',
 			playerVars: {
 				'playsinline': 1
 			},
