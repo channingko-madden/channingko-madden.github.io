@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+Title: music.html
+
+@brief Music page for sharing random music related things, like favorite songs, etc.
+
+-->
+<html>
+	<head>
+		<meta name="description" content="A page for sharing random music related things" />
+		<meta http-equiv="author" content="Channing Ko-Madden" />
+		<title>Music</title>
+		<link href="../styles/music-style.css" type="text/css" rel="stylesheet" />
+		<script src="../components/main-navigation.js"></script>
+	</head>
+	<body>
+		<div class="container_12 clearfix">
+			<div class="grid_12 title">
+				<h1>Music</h1>
+			</div> <!-- end title -->
+			<main-navigation-component rootpath=".."></main-navigation-component>
+			<!-- Favorite Song of year Youtube players of songs 
+			In reverse chronological order -->
+			<div class="grid_12" id="fav_songs">
+				<h1>Song of the Year</h1>
+				<article>
+					<h3>2023</h3>
+					<iframe class="youtube-player" type="text/html" width="620" height="410" src="http://www.youtube.com/embed/i8_8oh8a23w" frameborder="0"></iframe>
+				</article> <!-- end 2023 - cold by strongboi -->
+				<article>
+					<h3>2022</h3>
+					<iframe class="youtube-player" type="text/html" width="620" height="410" src="http://www.youtube.com/embed/qSKlCWGaaao" frameborder="0"></iframe>
+				</article> <!-- end 2022 - Magazine by Toro y Moi -->
+				<article>
+					<h3>2021</h3>
+					<iframe class="youtube-player" type="text/html" width="620" height="410" src="http://www.youtube.com/embed/u-WTfP3WJc4" frameborder="0"></iframe>
+				</article> <!-- end 2021 - Loretta by Ginger Root -->
+				<article>
+					<h3>2020</h3>
+					<iframe class="youtube-player" type="text/html" width="620" height="410" src="http://www.youtube.com/embed/UTpYD0yf81o" frameborder="0"></iframe>
+				</article> <!-- end 2020 - Kool by Benee -->
+				<article>
+					<h3>2019</h3>
+					<iframe class="youtube-player" type="text/html" width="620" height="410" src="http://www.youtube.com/embed/SVQpc9SiAq8" frameborder="0"></iframe>
+				</article> <!-- end 2019 - You and I by Jakob -->
+			</div> <!-- End fav songs -->
+		</div>
+	</body>
+</html>
+

@@ -1,0 +1,27 @@
+/*
+
+Title: music-style.css
+
+Author: Channing Ko-Madden
+
+Brief: Style sheet for music.html page
+*/
+
+@import url("960_12_col.css");
+@import url("global-style.css");
+
+#fav_songs {
+	text-align: center;
+	display: block;
+}
+
+#fav_songs > h1 {
+	display: inline-block;
+	width: 300px;
+	text-align: center;
+}
+
+#fav_songs > h3 {
+	width: 200px;
+	text-align: center;
+}
