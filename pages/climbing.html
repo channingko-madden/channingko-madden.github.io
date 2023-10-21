@@ -2,8 +2,6 @@
 <!--
 Title: climbing.html
 
-Date: 2023-01-05
-
 Author: Channing Ko-Madden
 
 @brief Rock climbing page
@@ -14,46 +12,37 @@ Author: Channing Ko-Madden
 		<meta http-equiv="author" content="Channing Ko-Madden" />
 		<title>Rock Climbing</title>
 		<link href="../styles/climbing-style.css" type="text/css" rel="stylesheet" />
-		<script src="../js/climbing.js" async></script>
 		<script src="../components/main-navigation.js"></script>
 	</head>
 	<body>
 		<div class="container_12 clearfix">
 			<div class="grid_12 title">
-				<h1>Climbing</h1>
+				<h1>Rock Climbing</h1>
 			</div> <!-- end title -->
 			<main-navigation-component rootpath=".."></main-navigation-component>
-			<!-- Embedded YouTube video to feature on the page, the first thing the viewer sees -->
-			<article class="grid_12 feature_image">
-				<div id="feature_player"></div>
-			</article>
-			<div id="send_links" class="grid_12">
+			<div class="grid_12 title">
 				<h3>Send Videos</h3>
-				<ul>
-					<li>
-						<a href="https://youtu.be/WAaiZHC_xJE" target="_blank" rel="noreferre noopener">Nice Slot (V5)</a>
-					</li>
-					<li>
-						<a href="https://youtu.be/6S70VWg2w3g" target="_blank" rel="noreferrer noopener">It (V5)</a>
-					</li>
-					<li>
-						<a href="https://youtu.be/pXgwHBYdtW0" target="_blank" rel="noreferrer noopener">Tomb Traverse (V4)</a>
-					</li>
-					<li>
-						<a href="https://youtu.be/LeisXTdwMgY" target="_blank" rel="noreferrer noopener">Twist Dah
-                            Hick (V5)</a>
-					</li>
-					<li>
-						<a href="https://youtu.be/yY9VLJHXzqQ" target="_blank" rel="noreferrer noopener">Occam's Razor
-                            (V5)</a>
-					</li>
-					<li>
-						<a href="https://youtu.be/7QsH9mvu33E" target="_blank" rel="noreferrer noopener">Year Of The
-                            Dragon (V6)</a>
-					</li>
-
-				</ul>
-            </div> <!-- End right sidebar -->
+			</div> <!-- section title -->
+			<!-- Youtube players of all my send videos, in reverse chronological order -->
+			<article class="grid_12 feature_image">
+				<iframe class="youtube-player" type="text/html" width="620" height="410" src="http://www.youtube.com/embed/7QsH9mvu33E" frameborder="0" allowfullscreen></iframe>
+			</article> <!-- Year of the Dragon -->
+			<article class="grid_12 feature_image">
+				<iframe class="youtube-player" type="text/html" width="620" height="410" src="http://www.youtube.com/embed/yY9VLJHXzqQ" frameborder="0" allowfullscreen></iframe>
+			</article> <!-- Occam's Razor -->
+			<article class="grid_12 feature_image">
+				<iframe class="youtube-player" type="text/html" width="620" height="410" src="http://www.youtube.com/embed/LeisXTdwMgY" frameborder="0" allowfullscreen></iframe>
+			</article> <!-- Twist Dah Hick -->
+			<article class="grid_12 feature_image">
+				<iframe class="youtube-player" type="text/html" width="620" height="410" src="http://www.youtube.com/embed/pXgwHBYdtW0" frameborder="0" allowfullscreen></iframe>
+			</article> <!-- Tomb Traverse -->
+			<article class="grid_12 feature_image">
+				<iframe class="youtube-player" type="text/html" width="620" height="410" src="http://www.youtube.com/embed/6S70VWg2w3g" frameborder="0" allowfullscreen></iframe>
+			</article> <!-- It -->
+			<article class="grid_12 feature_image">
+				<iframe class="youtube-player" type="text/html" width="620" height="410" src="http://www.youtube.com/embed/WAaiZHC_xJE" frameborder="0" allowfullscreen></iframe>
+			</article> <!-- Nice slot -->
+			<!-- End send vidoes -->
 		</div>
 	</body>
 </html>
