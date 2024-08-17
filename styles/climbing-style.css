@@ -10,15 +10,15 @@ Brief: Style sheet for climbing.html page
 @import url("960_12_col.css");
 @import url("global-style.css");
 
-/* Div containing links to climbing videos */
-#send_links {
+/* Div containing list of sends*/
+#send_list {
     text-align: center;
 }
 
 /* Customize list 
  * Set margin and padding to center correctly given that
  * the bullet points have been removed */
-#send_links > ul {
+#send_list > ul {
     display: inline-block;
     list-style: none;
     margin: 0;
